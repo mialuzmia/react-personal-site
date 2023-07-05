@@ -1,0 +1,42 @@
+
+
+.repoCard {
+    background-color: #686AAC;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column; 
+	min-height: 8rem;
+	max-width: 100%;
+	position: relative;
+	box-shadow: 7px 8px 5px 0px rgba(0, 0, 0, 0.43);
+	-webkit-box-shadow: 7px 8px 5px 0px rgba(0, 0, 0, 0.43);
+	-moz-box-shadow: 7px 8px 5px 0px rgba(0, 0, 0, 0.43);
+}
+.repoLink{
+	text-decoration: none;
+}
+.repoName {
+	font-size: 1.125rem;
+	color: rgb(213, 157, 243);
+	margin: 0.8rem 1.25rem 0.3rem 0.8rem;
+}
+.repoDescription {
+	margin: 0rem 1.25rem 0.3rem 0.8rem;
+	padding-bottom: 1.5rem;
+	color: rgb(225, 225, 225);
+	text-align: left;
+}
+.repoDetails {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0.6rem;
+	left: 0.8rem;
+	right: 1.25rem;
+	color: rgb(225, 225, 225);
+}
+.detailsText{
+	color: rgb(225, 225, 225);
+
+}

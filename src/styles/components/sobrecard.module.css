@@ -1,0 +1,20 @@
+.sobrecardContainer{
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.sobrecardImage{
+    width: 100%;
+}
+.sobrecardTitle{
+    color: #474A51;
+    font-size: 1.5rem;
+}
+.sobrecardText{
+    text-align: center;
+    font-size: 1rem;
+}

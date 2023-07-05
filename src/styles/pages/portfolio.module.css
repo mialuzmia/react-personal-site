@@ -1,0 +1,25 @@
+.reposContainer{
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 80%;
+    margin: 2rem auto;
+	gap: 2rem;
+	max-height: 95%;
+	margin-bottom: 1rem;
+}
+.searchContainer{
+	width: 40%;
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.searchInput{
+	width: 100%;
+	padding: .8rem 1rem;
+    border: 2px solid #a1a1a1;
+	outline: none;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
